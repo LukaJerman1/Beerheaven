@@ -1,0 +1,53 @@
+{{!< default}}
+
+{{#contentFor 'custom_js'}}
+<script type="text/javascript" src="/highslide/highslide-with-gallery.js"></script>
+<script type="text/javascript" src="/highslide/highslide.config.js" charset="utf-8"></script>
+{{/contentFor}}
+{{#contentFor 'custom_css'}}
+<link rel="stylesheet" type="text/css" href="/highslide/highslide.css" />
+{{/contentFor}}
+
+
+<!-- body -->
+{{> common/title_with_intro
+  intro=page.intro
+  title=page.title
+}}
+
+<div class="section vadnica">
+  <div class="container">
+    <div class="title-area my-0">
+      <h3><a href="/brewery/{{ data.tutorial.brewery.id }}">{{ data.tutorial.brewery.name }}</a></h3><br/>
+      <h3 class="header">{{ data.tutorial.title }}</h3>
+    </div>
+    <div>
+      <hr/>
+      <div class="content intro">
+        {{ data.tutorial.desc }}
+      </div>
+      <hr/>
+      <!-- kontrolni gumbi -->
+      {{> tutorials/controls }}
+      <hr/>
+      <!-- upload forma za datoteke -->
+      {{#if data.tutorial.status.mayUpload }}
+      <div class="content flex">
+        {{> tutorials/upload 
+          tutorial=data.tutorial
+          brewery=data.tutorial.brewery
+        }}
+      </div>
+      <hr/>
+      {{/if}}
+      {{#if data.tutorial.elements }}
+      <!-- galerija elementov -->
+      <div class="content flex">
+        {{> tutorials/gallery 
+          tutorial=data.tutorial
+        }}
+      </div>
+      {{/if}}
+    </div>
+  </div>
+</div>

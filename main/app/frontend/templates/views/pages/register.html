@@ -1,0 +1,38 @@
+{{!< default}}
+<!-- body -->
+{{> common/title_with_intro
+  intro="Dobrodošli na strani BeerHeaven"
+  title="Registracija uporabnika"
+}}
+
+{{> common/errors }}
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="user_register">
+        <form action="/register" method="POST">
+          <h4><b>Vpišite podatke za registracijo:</b></h4>
+          <br/>
+          <div class="form-group">
+              <label for="first_name">Ime</label>
+              <input type="text" class="form-control" id="first_name" name="first_name" require>
+          </div>
+          <div class="form-group">
+            <label for="last_name">Priimek</label>
+            <input type="text" class="form-control" id="last_name" name="last_name" require>
+          </div>
+          <div class="form-group">
+              <label for="email">E-pošta</label>
+              <input type="email" class="form-control" id="email" name="email" require>
+          </div>
+          <div class="form-group">
+              <label for="password">Geslo</label>
+              <input type="password" class="form-control" id="password" name="password" require>
+          </div>
+          <button type="submit" class="btn btn-fill">Registriraj</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

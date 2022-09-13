@@ -1,0 +1,10 @@
+{{#with tutorial.elements}}
+<div class="highslide-gallery"><ul>
+  {{#each .}}
+  <!-- onclick="return hs.expand(this, config1 )" -->
+  <li><a href="{{src}}" class="highslide base64" title="{{ filename }}">
+      <img class="base64" src="{{src}}" width="200px" height="200px" alt="" title=" {{ title }}"/>
+  </a></li>
+  {{/each}}
+</ul><div style="clear:both"></div></div>
+{{/with}}

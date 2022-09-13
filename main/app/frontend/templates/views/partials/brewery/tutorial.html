@@ -1,0 +1,21 @@
+{{#if tutorial.status.enabled }}
+<a href="/tutorial/{{tutorial.id}}/brewery/{{brewery.id}}">
+{{/if}}
+{{#if tutorial.status.enabled }}
+<div class="card mycard enabled {{#if tutorial.status.active}}active{{/if}}">
+{{ else }}
+<div class="card mycard disabled">
+{{/if}}
+  <div class="card-body">
+    <div class="card-title">
+      <div class="tag">
+        {{> tutorials/status}}
+      </div>
+      <h3>{{ tutorial.title }}</h3>
+    </div>
+    <p class="card-text">{{ tutorial.desc }}</p>
+  </div>
+</div>
+{{#if tutorial.status.enabled }}
+</a>
+{{/if}}

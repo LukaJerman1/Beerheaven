@@ -1,0 +1,29 @@
+<!-- ismy: {{brewery.status.ismy}}-->
+<!-- enabled: {{tutorial.status.enabled}}-->
+<!-- finished: {{tutorial.status.finished}}-->
+<!-- running: {{tutorial.status.running}}-->
+<!-- ready: {{tutorial.status.ready}} -->
+{{#if tutorial.status.finished }}
+  {{#if brewery.status.ismy}}
+    <span class="ico material-icons" style="color: green">check_circle</span>
+    {{#if show_labels}}<span class="status-lbl">zaključena</span>{{/if}}
+  {{else}}
+    <span class="ico material-icons" style="color: gray">check_circle</span>
+    {{#if show_labels}}<span class="status-lbl">zaključena</span>{{/if}}
+  {{/if}}
+{{/if}}
+{{#if tutorial.status.running }}
+  {{#if brewery.status.ismy}}
+    <span class="ico material-icons" style="color: green">chevron_right</span>
+    {{#if show_labels}}<span class="status-lbl">v izvajanju</span>{{/if}}
+  {{else}}
+    <span class="ico material-icons" style="color: gray">directions_run</span>
+    {{#if show_labels}}<span class="status-lbl">v izvajanju</span>{{/if}}
+  {{/if}}
+{{/if}}
+{{#if tutorial.status.ready }}
+  {{#if brewery.status.ismy}}
+    <span class="ico material-icons" style="color: green">play_circle</span>
+    {{#if show_labels}}<span class="status-lbl">pripravljena</span>{{/if}}
+  {{/if}}
+{{/if}}

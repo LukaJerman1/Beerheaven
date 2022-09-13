@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/img/apple-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/img/favicon.png"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>{{ page.title }}</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="/assets/css/gaia.css" rel="stylesheet" />
+    <link href="/ext/css/beerheaven.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="/assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    {{{block 'custom_css'}}}
+  </head>
+
+  <body>
+    
+    {{> menu/top }}
+    
+    {{{body}}}
+    
+    {{> common/footer }}
+
+
+  <script src="/assets/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/assets/js/bootstrap.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/assets/js/modernizr.js"></script>
+
+  <script
+    type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js"
+  ></script>
+
+  <script type="text/javascript" src="/assets/js/gaia.js"></script>
+  <script type="text/javascript" src="/ext/js/beerheaven.js"></script>
+  {{{block 'custom_js'}}}
+  </body>
+</html>

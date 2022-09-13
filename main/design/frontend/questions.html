@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/img/apple-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/img/favicon.png"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Forum</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/gaia.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-default navbar-transparent navbar-fixed-top"
+      color-on-scroll="200"
+    >
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            id="menu-toggle"
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#example"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a href="#" class="navbar-brand"> Beer Heaven </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right navbar-uppercase">
+            <li>
+              <a href="Home.html" target="_blank">Home</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <b>Moja Pivovarna</b>
+              </a>
+              <ul class="dropdown-menu dropdown-danger">
+                <li>
+                  <a href="NakupOpreme.html">Nakup opreme in čiščenje</a>
+                </li>
+                <li>
+                  <a href="Drozganje.html">Drozganje</a>
+                </li>
+                <li>
+                  <a href="Kuhanje.html">Kuhanje</a>
+                </li>
+                <li>
+                  <a href="Fermentacija.html">Fermentacija</a>
+                </li>
+                <li>
+                  <a href="Steklenicenje.html">Stekleničenje</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="Forum.html" target="_blank">Forum</a>
+            </li>
+            <li>
+              <a href="OstalePivovarne.html" class="btn btn-fill"
+                >Ostale pivovarne</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="section section-header">
+      <div class="parallax filter">
+        <div
+          class="image"
+          style="background-image: url('assets/img/heavenbeer.jpg')"
+        ></div>
+        <div class="container">
+          <div class="content">
+            <div class="title-area">
+              <h1 class="title-modern">MY FORUM</h1>
+              <p>
+                If you have any questions, or you're just a fanatic for beer,
+                this is the page for you!
+              </p>
+              <div class="separator line-separator">♦</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" style="margin: 30px">
+      <div class="container">
+        <div class="title-area">
+          <h2>Forum</h2>
+          <div class="separator separator-important">✻</div>
+        </div>
+      </div>
+
+    <!--Search Box-->
+    <div class="search-box" style="border:solid 1px #52057b; margin-top: 20px; padding: 40px; display: flex; justify-content: center; box-shadow: 1px 2px 3px #52057b;">
+      <div>
+        <select name="search" id="search-questions" style="padding: 12px;">
+          <option value="everything">Everything</option>
+          <option value="titles">Titles</option>
+          <option value="descriptions">Descriptions</option>
+        </select>
+        <input type="text" name="q" id="" placeholder="search..." style="padding: 10px;">
+        <button style="padding: 9px; background-color: #fff; color: #000000;"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+
+    <br> <br>
+    <!--question table, get by main forum page-->
+    <div class="posts-table" style="padding: 5px; margin: 2px; display: flex; background-color: #2C2C2C; font-weight: bold;">
+        <table style="margin: 5px; padding: 5px;">
+            <tr style="display: flex; color: beige;">
+                <th scope="col" style="margin: 5px; padding: 5px; flex: 5%;">Status</th>
+                <th scope="col" style="margin: 5px; padding: 5px; flex: 70%;">Subjects</th>
+                <th scope="col" style="margin: 5px; padding: 5px; flex: 10%;">Replies/Views</th>
+                <th scope="col" style="margin: 5px; padding: 5px; flex: 15%;">Last Reply</th>
+            </tr>
+            <tr style="display: flex; color: beige;">
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 5%; font-size: 20px; text-align: center;"><i class="fa fa-fire"></i></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 70%; "><a href="#">Is learning BeerHeaven worth it?</a></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 10%;">2 replies <br> 125 views</td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 15%;">Oct12 2021 <br> By <b><a href="#">User</a></b></td>
+            </tr>
+            <tr style="display: flex; color: beige;">
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 5%; font-size: 20px; text-align: center;"><i class="fa fa-fire"></i></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 70%; "><a href="#">Is learning BeerHeaven worth it?</a></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 10%;">2 replies <br> 125 views</td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 15%;">Oct12 2021 <br> By <b><a href="#">User</a></b></td>
+            </tr>
+            <tr style="display: flex; color: beige;">
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 5%; font-size: 20px; text-align: center;"><i class="fa fa-fire"></i></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 70%; "><a href="#">Is learning BeerHeaven worth it?</a></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 10%;">2 replies <br> 125 views</td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 15%;">Oct12 2021 <br> By <b><a href="#">User</a></b></td>
+            </tr>
+            <tr style="display: flex; color: beige;">
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 5%; font-size: 20px; text-align: center;"><i class="fa fa-fire"></i></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 70%; "><a href="#">Is learning BeerHeaven worth it?</a></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 10%;">2 replies <br> 125 views</td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 15%;">Oct12 2021 <br> By <b><a href="#">User</a></b></td>
+            </tr>
+            <tr style="display: flex; color: beige;">
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 5%; font-size: 20px; text-align: center;"><i class="fa fa-fire"></i></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 70%; "><a href="#">Is learning BeerHeaven worth it?</a></td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 10%;">2 replies <br> 125 views</td>
+                <td style="margin: 5px; padding: 5px; background-color: #131415; flex: 15%;">Oct12 2021 <br> By <b><a href="#">User</a></b></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--pagination-->
+    <div class="pagination" style="padding: 20px; font-size: 15px;">
+       <b>pages:</b>   <a href="#" 
+                style="color: black; 
+                margin-inline: 5px; 
+                padding: 5px 10px; 
+                border: solid 0.5px black;">1</a> 
+                
+                <a href="#" style="color: black; 
+                margin-inline: 5px; 
+                padding: 5px 10px; 
+                border: solid 0.5px black;">2</a> 
+
+                <a href="#" style="color: black; 
+                margin-inline: 5px; 
+                padding: 5px 10px; 
+                border: solid 0.5px black;">3</a>
+    </div>
+
+    <!--Status note-->
+    <div class="note" style="background-color: #111314; padding: 20px; display: block;">
+        <span style="font-size: 20px; margin-block: 5px; color: beige;">
+            <i class="fa fa-frown-o"></i>&nbsp; 0 Engagement Topic <br>
+        </span>
+        <span style="font-size: 20px; margin-block: 5px; color: beige;">
+            <i class="fa fa-book"></i>&nbsp; Low Engagement Topic <br>
+        </span>
+        <span style="font-size: 20px; margin-block: 5px; color: beige;">
+            <i class="fa fa-fire"></i>&nbsp; Popular Topic <br>
+        </span>
+        <span style="font-size: 20px; margin-block: 5px; color: beige;">
+            <i class="fa fa-rocket"></i>&nbsp; High Engagement Topic <br>
+        </span>
+    </div>
+
+    <div class="section section-small section-get-started">
+      <div class="parallax filter">
+        <div
+          class="image"
+          style="background-image: url('assets/img/office-1.jpeg')"
+        ></div>
+        <div class="container">
+          <div class="title-area">
+            <p class="description">#........</p>
+          </div>
+
+          <div class="button-get-started">
+            <a href="contact.html" class="btn btn-danger btn-fill btn-lg"
+              >Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer footer-big footer-color-black" data-color="black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3">
+            <div class="info">
+              <h5 class="title">Company</h5>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">Find offers</a>
+                  </li>
+                  <li>
+                    <a href="#">Discover Projects</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1 col-sm-3">
+            <div class="info">
+              <h5 class="title">Help and Support</h5>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">How it works</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Company Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Money Back</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <div class="info">
+              <h5 class="title">Latest News</h5>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-twitter"></i> <b>BeerHeaven</b>
+                      <hr class="hr-small" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-twitter"></i> We've just been featured on
+                      <b> Awwwards Website</b>!
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-2 col-md-offset-1 col-sm-3">
+            <div class="info">
+              <h5 class="title">Follow us on</h5>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#" class="btn btn-social btn-facebook btn-simple">
+                      <i class="fa fa-facebook-square"></i> Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn btn-social btn-dribbble btn-simple">
+                      <i class="fa fa-instagram"></i> Instagram
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn btn-social btn-twitter btn-simple">
+                      <i class="fa fa-twitter"></i> Twitter
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="copyright">
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+  <script
+    type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js"
+  ></script>
+
+  <script type="text/javascript" src="assets/js/gaia.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+  <!-- Auth -->
+  <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth__sl.js"></script>
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css"
+  />
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBfb1pq_sF-IQeeIdEqlaYV7T7RMQetKZI",
+      authDomain: "beerheaven-f7572.firebaseapp.com",
+      projectId: "beerheaven-f7572",
+      storageBucket: "beerheaven-f7572.appspot.com",
+      messagingSenderId: "631314302566",
+      appId: "1:631314302566:web:7a360f498094397cddcfa7",
+      measurementId: "G-KHL32HGSXX",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <script type="text/javascript" src="js/auth.js"></script>
+</html>

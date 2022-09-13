@@ -1,0 +1,361 @@
+Folder PATH listing for volume HD
+Volume serial number is 7C8F-2852
+D:.
+ÃÄÄÄapp
+³   ÃÄÄÄ.vscode
+³   ÃÄÄÄbackend
+³   ³   ÀÄÄÄrouters
+³   ÃÄÄÄfrontend
+³   ³   ÃÄÄÄpublic
+³   ³   ³   ÃÄÄÄassets
+³   ³   ³   ³   ÃÄÄÄcss
+³   ³   ³   ³   ³   ÀÄÄÄfonts
+³   ³   ³   ³   ÃÄÄÄfonts
+³   ³   ³   ³   ³   ÃÄÄÄGlyphicons
+³   ³   ³   ³   ³   ÀÄÄÄPe-Icon-Stroke
+³   ³   ³   ³   ÃÄÄÄimg
+³   ³   ³   ³   ÀÄÄÄjs
+³   ³   ³   ÀÄÄÄext
+³   ³   ³       ÃÄÄÄcss
+³   ³   ³       ÀÄÄÄjs
+³   ³   ÃÄÄÄrouters
+³   ³   ÃÄÄÄservices
+³   ³   ÀÄÄÄviews
+³   ³       ÀÄÄÄpartials
+³   ÀÄÄÄnode_modules
+³       ÃÄÄÄ.bin
+³       ÃÄÄÄaccepts
+³       ÃÄÄÄarray-flatten
+³       ÃÄÄÄasync
+³       ³   ÃÄÄÄdist
+³       ³   ÀÄÄÄinternal
+³       ÃÄÄÄaxios
+³       ³   ÃÄÄÄdist
+³       ³   ÀÄÄÄlib
+³       ³       ÃÄÄÄadapters
+³       ³       ÃÄÄÄcancel
+³       ³       ÃÄÄÄcore
+³       ³       ÀÄÄÄhelpers
+³       ÃÄÄÄbasic-auth
+³       ÃÄÄÄbignumber.js
+³       ³   ÀÄÄÄdoc
+³       ÃÄÄÄbluebird
+³       ³   ÀÄÄÄjs
+³       ³       ÃÄÄÄbrowser
+³       ³       ÀÄÄÄrelease
+³       ÃÄÄÄbody-parser
+³       ³   ÀÄÄÄlib
+³       ³       ÀÄÄÄtypes
+³       ÃÄÄÄbookshelf
+³       ³   ÀÄÄÄlib
+³       ³       ÀÄÄÄbase
+³       ÃÄÄÄbytes
+³       ÃÄÄÄcolorette
+³       ÃÄÄÄcommander
+³       ³   ÀÄÄÄtypings
+³       ÃÄÄÄcontent-disposition
+³       ÃÄÄÄcontent-type
+³       ÃÄÄÄcookie
+³       ÃÄÄÄcookie-parser
+³       ÃÄÄÄcookie-signature
+³       ÃÄÄÄcore-util-is
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄcors
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄcreate-error
+³       ³   ÀÄÄÄtest
+³       ÃÄÄÄdebug
+³       ³   ÀÄÄÄsrc
+³       ÃÄÄÄdepd
+³       ³   ÀÄÄÄlib
+³       ³       ÃÄÄÄbrowser
+³       ³       ÀÄÄÄcompat
+³       ÃÄÄÄdestroy
+³       ÃÄÄÄee-first
+³       ÃÄÄÄencodeurl
+³       ÃÄÄÄescalade
+³       ³   ÃÄÄÄdist
+³       ³   ÀÄÄÄsync
+³       ÃÄÄÄescape-html
+³       ÃÄÄÄesm
+³       ³   ÀÄÄÄesm
+³       ÃÄÄÄetag
+³       ÃÄÄÄexpress
+³       ³   ÃÄÄÄlib
+³       ³   ³   ÃÄÄÄmiddleware
+³       ³   ³   ÀÄÄÄrouter
+³       ³   ÀÄÄÄnode_modules
+³       ³       ÀÄÄÄcookie
+³       ÃÄÄÄfinalhandler
+³       ÃÄÄÄfollow-redirects
+³       ÃÄÄÄforeachasync
+³       ÃÄÄÄforwarded
+³       ÃÄÄÄfresh
+³       ÃÄÄÄfunction-bind
+³       ³   ÀÄÄÄtest
+³       ÃÄÄÄgetopts
+³       ÃÄÄÄhandlebars
+³       ³   ÃÄÄÄbin
+³       ³   ÃÄÄÄdist
+³       ³   ³   ÃÄÄÄamd
+³       ³   ³   ³   ÀÄÄÄhandlebars
+³       ³   ³   ³       ÃÄÄÄcompiler
+³       ³   ³   ³       ÃÄÄÄdecorators
+³       ³   ³   ³       ÃÄÄÄhelpers
+³       ³   ³   ³       ÀÄÄÄinternal
+³       ³   ³   ÀÄÄÄcjs
+³       ³   ³       ÀÄÄÄhandlebars
+³       ³   ³           ÃÄÄÄcompiler
+³       ³   ³           ÃÄÄÄdecorators
+³       ³   ³           ÃÄÄÄhelpers
+³       ³   ³           ÀÄÄÄinternal
+³       ³   ÃÄÄÄlib
+³       ³   ³   ÀÄÄÄhandlebars
+³       ³   ³       ÃÄÄÄcompiler
+³       ³   ³       ÃÄÄÄdecorators
+³       ³   ³       ÃÄÄÄhelpers
+³       ³   ³       ÀÄÄÄinternal
+³       ³   ÀÄÄÄtypes
+³       ÃÄÄÄhas
+³       ³   ÃÄÄÄsrc
+³       ³   ÀÄÄÄtest
+³       ÃÄÄÄhbs
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄhttp-errors
+³       ÃÄÄÄiconv-lite
+³       ³   ÃÄÄÄencodings
+³       ³   ³   ÀÄÄÄtables
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄinflection
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄinherits
+³       ÃÄÄÄinterpret
+³       ÃÄÄÄipaddr.js
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄis-core-module
+³       ³   ÀÄÄÄtest
+³       ÃÄÄÄisarray
+³       ÃÄÄÄknex
+³       ³   ÃÄÄÄbin
+³       ³   ³   ÀÄÄÄutils
+³       ³   ÃÄÄÄlib
+³       ³   ³   ÃÄÄÄdialects
+³       ³   ³   ³   ÃÄÄÄmssql
+³       ³   ³   ³   ³   ÃÄÄÄquery
+³       ³   ³   ³   ³   ÀÄÄÄschema
+³       ³   ³   ³   ÃÄÄÄmysql
+³       ³   ³   ³   ³   ÃÄÄÄquery
+³       ³   ³   ³   ³   ÀÄÄÄschema
+³       ³   ³   ³   ÃÄÄÄmysql2
+³       ³   ³   ³   ÃÄÄÄoracle
+³       ³   ³   ³   ³   ÃÄÄÄquery
+³       ³   ³   ³   ³   ÀÄÄÄschema
+³       ³   ³   ³   ³       ÀÄÄÄinternal
+³       ³   ³   ³   ÃÄÄÄoracledb
+³       ³   ³   ³   ³   ÃÄÄÄquery
+³       ³   ³   ³   ³   ÀÄÄÄschema
+³       ³   ³   ³   ÃÄÄÄpostgres
+³       ³   ³   ³   ³   ÃÄÄÄexecution
+³       ³   ³   ³   ³   ÃÄÄÄquery
+³       ³   ³   ³   ³   ÀÄÄÄschema
+³       ³   ³   ³   ÃÄÄÄredshift
+³       ³   ³   ³   ³   ÃÄÄÄquery
+³       ³   ³   ³   ³   ÀÄÄÄschema
+³       ³   ³   ³   ÀÄÄÄsqlite3
+³       ³   ³   ³       ÃÄÄÄexecution
+³       ³   ³   ³       ÃÄÄÄquery
+³       ³   ³   ³       ÀÄÄÄschema
+³       ³   ³   ³           ÀÄÄÄinternal
+³       ³   ³   ÃÄÄÄexecution
+³       ³   ³   ³   ÀÄÄÄinternal
+³       ³   ³   ÃÄÄÄformatter
+³       ³   ³   ÃÄÄÄknex-builder
+³       ³   ³   ³   ÀÄÄÄinternal
+³       ³   ³   ÃÄÄÄmigrations
+³       ³   ³   ³   ÃÄÄÄmigrate
+³       ³   ³   ³   ³   ÃÄÄÄsources
+³       ³   ³   ³   ³   ÀÄÄÄstub
+³       ³   ³   ³   ÃÄÄÄseed
+³       ³   ³   ³   ³   ÀÄÄÄstub
+³       ³   ³   ³   ÀÄÄÄutil
+³       ³   ³   ÃÄÄÄquery
+³       ³   ³   ÃÄÄÄschema
+³       ³   ³   ³   ÀÄÄÄinternal
+³       ³   ³   ÀÄÄÄutil
+³       ³   ÃÄÄÄnode_modules
+³       ³   ³   ÃÄÄÄdebug
+³       ³   ³   ³   ÀÄÄÄsrc
+³       ³   ³   ÀÄÄÄms
+³       ³   ÃÄÄÄscripts
+³       ³   ³   ÀÄÄÄstress-test
+³       ³   ÀÄÄÄtypes
+³       ÃÄÄÄlodash
+³       ³   ÀÄÄÄfp
+³       ÃÄÄÄlru-cache
+³       ÃÄÄÄmedia-typer
+³       ÃÄÄÄmerge-descriptors
+³       ÃÄÄÄmethods
+³       ÃÄÄÄmime
+³       ³   ÀÄÄÄbuild
+³       ÃÄÄÄmime-db
+³       ÃÄÄÄmime-types
+³       ÃÄÄÄminimist
+³       ³   ÃÄÄÄexample
+³       ³   ÀÄÄÄtest
+³       ÃÄÄÄmorgan
+³       ÃÄÄÄms
+³       ÃÄÄÄmustache
+³       ³   ÃÄÄÄbin
+³       ³   ÀÄÄÄwrappers
+³       ³       ÃÄÄÄdojo
+³       ³       ÃÄÄÄjquery
+³       ³       ÃÄÄÄmootools
+³       ³       ÃÄÄÄqooxdoo
+³       ³       ÀÄÄÄyui3
+³       ÃÄÄÄmustache-express
+³       ³   ÀÄÄÄtest
+³       ³       ÃÄÄÄtest01
+³       ³       ÃÄÄÄtest02
+³       ³       ÃÄÄÄtest03
+³       ³       ÃÄÄÄtest04
+³       ³       ÃÄÄÄtest05
+³       ³       ÃÄÄÄtest06
+³       ³       ÃÄÄÄtest07
+³       ³       ÃÄÄÄtest08
+³       ³       ÃÄÄÄtest09
+³       ³       ÃÄÄÄtest10
+³       ³       ÃÄÄÄtest11
+³       ³       ÀÄÄÄtest12
+³       ÃÄÄÄmysql
+³       ³   ÀÄÄÄlib
+³       ³       ÀÄÄÄprotocol
+³       ³           ÃÄÄÄconstants
+³       ³           ÃÄÄÄpackets
+³       ³           ÀÄÄÄsequences
+³       ÃÄÄÄnegotiator
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄneo-async
+³       ÃÄÄÄobject-assign
+³       ÃÄÄÄon-finished
+³       ÃÄÄÄon-headers
+³       ÃÄÄÄparseurl
+³       ÃÄÄÄpath-parse
+³       ÃÄÄÄpath-to-regexp
+³       ÃÄÄÄpg-connection-string
+³       ÃÄÄÄprocess-nextick-args
+³       ÃÄÄÄproxy-addr
+³       ÃÄÄÄqs
+³       ³   ÃÄÄÄdist
+³       ³   ÃÄÄÄlib
+³       ³   ÀÄÄÄtest
+³       ÃÄÄÄrange-parser
+³       ÃÄÄÄraw-body
+³       ÃÄÄÄreadable-stream
+³       ³   ÃÄÄÄdoc
+³       ³   ³   ÀÄÄÄwg-meetings
+³       ³   ÀÄÄÄlib
+³       ³       ÀÄÄÄinternal
+³       ³           ÀÄÄÄstreams
+³       ÃÄÄÄrechoir
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄresolve
+³       ³   ÃÄÄÄexample
+³       ³   ÃÄÄÄlib
+³       ³   ÀÄÄÄtest
+³       ³       ÃÄÄÄdotdot
+³       ³       ³   ÀÄÄÄabc
+³       ³       ÃÄÄÄmodule_dir
+³       ³       ³   ÃÄÄÄxmodules
+³       ³       ³   ³   ÀÄÄÄaaa
+³       ³       ³   ÃÄÄÄymodules
+³       ³       ³   ³   ÀÄÄÄaaa
+³       ³       ³   ÀÄÄÄzmodules
+³       ³       ³       ÀÄÄÄbbb
+³       ³       ÃÄÄÄnode_path
+³       ³       ³   ÃÄÄÄx
+³       ³       ³   ³   ÃÄÄÄaaa
+³       ³       ³   ³   ÀÄÄÄccc
+³       ³       ³   ÀÄÄÄy
+³       ³       ³       ÃÄÄÄbbb
+³       ³       ³       ÀÄÄÄccc
+³       ³       ÃÄÄÄpathfilter
+³       ³       ³   ÀÄÄÄdeep_ref
+³       ³       ÃÄÄÄprecedence
+³       ³       ³   ÃÄÄÄaaa
+³       ³       ³   ÀÄÄÄbbb
+³       ³       ÃÄÄÄresolver
+³       ³       ³   ÃÄÄÄbaz
+³       ³       ³   ÃÄÄÄbrowser_field
+³       ³       ³   ÃÄÄÄdot_main
+³       ³       ³   ÃÄÄÄdot_slash_main
+³       ³       ³   ÃÄÄÄincorrect_main
+³       ³       ³   ÃÄÄÄinvalid_main
+³       ³       ³   ÃÄÄÄmultirepo
+³       ³       ³   ³   ÀÄÄÄpackages
+³       ³       ³   ³       ÃÄÄÄpackage-a
+³       ³       ³   ³       ÀÄÄÄpackage-b
+³       ³       ³   ÃÄÄÄnested_symlinks
+³       ³       ³   ³   ÀÄÄÄmylib
+³       ³       ³   ÃÄÄÄother_path
+³       ³       ³   ³   ÀÄÄÄlib
+³       ³       ³   ÃÄÄÄquux
+³       ³       ³   ³   ÀÄÄÄfoo
+³       ³       ³   ÃÄÄÄsame_names
+³       ³       ³   ³   ÀÄÄÄfoo
+³       ³       ³   ÃÄÄÄsymlinked
+³       ³       ³   ³   ÃÄÄÄpackage
+³       ³       ³   ³   ÀÄÄÄ_
+³       ³       ³   ³       ÃÄÄÄnode_modules
+³       ³       ³   ³       ÀÄÄÄsymlink_target
+³       ³       ³   ÀÄÄÄwithout_basedir
+³       ³       ÀÄÄÄshadowed_core
+³       ³           ÀÄÄÄnode_modules
+³       ³               ÀÄÄÄutil
+³       ÃÄÄÄresolve-from
+³       ÃÄÄÄsafe-buffer
+³       ÃÄÄÄsafer-buffer
+³       ÃÄÄÄsend
+³       ÃÄÄÄserve-static
+³       ÃÄÄÄsetprototypeof
+³       ÃÄÄÄsource-map
+³       ³   ÃÄÄÄdist
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄsqlstring
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄstatuses
+³       ÃÄÄÄstring_decoder
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄtarn
+³       ³   ÀÄÄÄdist
+³       ÃÄÄÄtildify
+³       ÃÄÄÄtype-is
+³       ÃÄÄÄuglify-js
+³       ³   ÃÄÄÄbin
+³       ³   ÃÄÄÄlib
+³       ³   ÀÄÄÄtools
+³       ÃÄÄÄunpipe
+³       ÃÄÄÄutil-deprecate
+³       ÃÄÄÄutils-merge
+³       ÃÄÄÄvary
+³       ÃÄÄÄwalk
+³       ³   ÀÄÄÄlib
+³       ÃÄÄÄwordwrap
+³       ³   ÃÄÄÄexample
+³       ³   ÀÄÄÄtest
+³       ÀÄÄÄyallist
+ÃÄÄÄdesign
+³   ÀÄÄÄfrontend
+³       ÀÄÄÄassets
+³           ÃÄÄÄcss
+³           ³   ÀÄÄÄfonts
+³           ÃÄÄÄfonts
+³           ³   ÃÄÄÄGlyphicons
+³           ³   ÀÄÄÄPe-Icon-Stroke
+³           ÃÄÄÄimg
+³           ÀÄÄÄjs
+ÃÄÄÄdocker
+ÃÄÄÄdocs
+³   ÃÄÄÄer
+³   ÀÄÄÄtutorials
+ÀÄÄÄscripts
+    ÀÄÄÄdb

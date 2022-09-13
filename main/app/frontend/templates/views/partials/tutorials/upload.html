@@ -1,0 +1,13 @@
+<form enctype="multipart/form-data" method="post" action="/tutorial/upload" >
+  <div class="row-flex-container tutorial-upload">
+    <div class="wrapper"><input type="file" name="file" accept="image/png, image/jpeg" id="file"/></div>
+    <div><input type="text" name="name" placeholder="Naziv ali opis datoteke"/></div>
+    <div><button class="btn btn-fill nomargin lesspadding" type="submit">Dodaj datoteko</button></div>
+
+  </div>
+  <input type="hidden" name="tid" value="{{ tutorial.id }}"/>
+  <input type="hidden" name="bid" value="{{ brewery.id }}"/>
+</form>
+
+
+

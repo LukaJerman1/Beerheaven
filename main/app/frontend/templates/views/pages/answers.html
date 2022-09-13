@@ -1,0 +1,94 @@
+{{!< default }} {{> common/title title="Answers" }}
+
+<div class="section">
+  <div class="container">
+    <div class="btn-group dropdown">
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">All Posts</a>
+        <br />
+        <a class="dropdown-item" href="#">Questions Only</a>
+      </div>
+    </div>
+    <div>
+      <a
+        href="/forum"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Nazaj"
+        style="display: flex; align-items: center"
+      >
+        <span class="material-icons" style="font-size: 26px">
+          keyboard_return
+        </span>
+        &nbsp;
+        <h3>{{ data.question.title}}</h3>
+      </a>
+      <a
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Like"
+        style="float: right; margin-right: 20px"
+        href="/question/like/{{data.question.id}}"
+      >
+        <i class="fa fa-gratipay fa-3x" style="color: red"></i>
+      </a>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"><h3>Odgovori</h3></th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each data.answers }}
+        <tr>
+          <td style="width: 100%"><b>{{ txt }}</b></td>
+          <td align="right">
+            <a
+              href="/answer/delete/{{id}}"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Briši odgovor"
+            >
+              <span class="material-icons" style="font-size: 26px">
+                delete
+              </span>
+            </a>
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+
+    <form action="/answer" method="POST" id="answers">
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Postavi odgovor</label>
+        <input
+          type="hidden"
+          id="id"
+          name="question_id"
+          value=" {{data.question.id}} "
+        />
+        <textarea
+          style="border-color: black"
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          name="answer"
+        ></textarea>
+      </div>
+    </form>
+
+    <div style="text-align: right">
+      <button
+        style="background-color: burlywood; color: black"
+        type="submit"
+        class="btn btn-black"
+        form="answers"
+      >
+        Objavi
+      </button>
+    </div>
+  </div>
+</div>

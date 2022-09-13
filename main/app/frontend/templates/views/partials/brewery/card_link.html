@@ -1,0 +1,12 @@
+<a href="/brewery/{{id}}">
+  <div class="card mycard">
+    <div class="card-body">
+      <div class="card-title">
+        <h3>{{ brewery.name }}</h3>
+      </div>
+      {{#if brewery.dat_opened}}
+        <p class="card-text">odprta dne, {{formatDate brewery.dat_opened }}</p>
+      {{/if}}
+    </div>
+  </div>
+</a>

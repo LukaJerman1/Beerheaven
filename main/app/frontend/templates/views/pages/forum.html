@@ -1,0 +1,72 @@
+{{!< default }}
+
+{{> common/title 
+  title="Q&A Forum"
+}}
+
+{{> common/errors }}
+
+<div class="section">
+  <div class="container">
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"><h3>Vprašanja</h3></th>
+          <th scope="col"><i class="fa fa-heart-o"></i></th>
+          <th scope="col"><i class="fa fa-comment-o"></i></th>
+          <th scope="col"><i class="fa fa-eye"></i></th>
+          <th>Zadnja aktivnost</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each data.questions }}
+        <tr>
+          <td><b>{{ title }}</b></td>
+          <td>{{ likes }}</td>
+          <td>{{ comments }}</td>
+          <td>{{ views }}</td>
+          <td>{{formatDate activity 'dd.mm.yyyy'}}</td>
+          <td nowrap style="text-align: right">
+            <a href="/question/delete/{{id}}">
+              <span class="material-icons" style="font-size: 26px;">
+                delete
+              </span>
+            </a>
+            <a href="/question/{{id}}">
+              <span class="material-icons" style="font-size: 26px; color: black;">
+                format_list_bulleted
+              </span>
+            </a>
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+
+    <form action="/question" method="POST" id="question">
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Postavi vprašanje</label>
+        <textarea
+          style="border-color: black"
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          name="question"
+        ></textarea>
+      </div>
+    </form>
+    
+    <div style="text-align: right">
+      <button
+        style="background-color: burlywood; color: black"
+        type="submit"
+        class="btn btn-black"
+        form="question"
+      >
+        Objavi
+      </button>
+    </div>
+  </div>
+</div>

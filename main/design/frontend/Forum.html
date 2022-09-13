@@ -1,0 +1,77 @@
+
+
+<div class="section" style="margin: 30px">
+  <div class="container">
+    <div class="title-area">
+      <h2>Forum</h2>
+      <div class="separator separator-important">✻</div>
+    </div>
+  </div>
+
+  <div class="btn-group dropdown">
+    <button
+      style="background-color: burlywood; color: black"
+      type="button"
+      class="btn btn-secondary dropdown-toggle"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      Filter
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">All Posts</a>
+      <br />
+      <a class="dropdown-item" href="#">Questions Only</a>
+    </div>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col"><h3>Vprašanja</h3></th>
+        <th scope="col"><i class="fa fa-heart-o"></i></th>
+        <th scope="col"><i class="fa fa-comment-o"></i></th>
+        <th scope="col"><i class="fa fa-eye"></i></th>
+        <th>Zadnja aktivnost</th>
+        <th>Izbriši</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>&nbsp;</td>
+        <td><button>X</button></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <div class="container">
+    <form action="/question" method="POST" id="question">
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Postavi vprašanje</label>
+        <textarea
+          style="border-color: black"
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          name="question"
+        ></textarea>
+      </div>
+    </form>
+    
+    <button
+      style="background-color: burlywood; color: black"
+      type="submit"
+      class="btn btn-black"
+      form="question"
+    >
+      Publish
+    </button>
+  </div>
+</div>

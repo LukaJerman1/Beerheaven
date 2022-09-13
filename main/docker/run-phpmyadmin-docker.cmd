@@ -1,0 +1,1 @@
+docker run --name beerheaven-phpmyadmin -d -p 0.0.0.0:8080:80 -e PMA_HOST=mysql phpmyadmin/phpmyadmin:5.0.2

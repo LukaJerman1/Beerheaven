@@ -1,0 +1,218 @@
+{{!< default }}
+
+<div class="section section-header">
+  <div class="parallax filter">
+    <div
+      class="image"
+      style="background-image: url('assets/img/heavenbeer.jpg')"
+    ></div>
+    <div class="container">
+      <div class="content">
+        <div class="title-area">
+          {{#if special_message }} {{ special_message }} {{/if}} {{#with user}}
+          <h2 class="title-modern">Hey, {{first_name}}!</h2>
+          {{/with}}
+          <h1 class="title-modern">POSTANI NOVI PIVOVAR</h1>
+          <p>Nauči se variti svoje pivo!</p>
+          <div class="separator line-separator">♦</div>
+        </div>
+        {{#unless user}}
+        <div class="title-area my-0">
+          <div class="button-get-started">
+            <a
+              href="/register"
+              target="_blank"
+              class="btn btn-white btn-fill btn-lg"
+            >
+              Registracija
+            </a>
+          </div>
+          <br />
+          <div class="button-get-started">
+            <a
+              href="/login"
+              target="_blank"
+              class="btn btn-white btn-fill btn-lg"
+            >
+              Prijava
+            </a>
+          </div>
+        </div>
+        {{/unless}}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="title-area">
+        <div class="separator separator-danger">✻</div>
+        <p class="description"></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-">
+        <div class="info-icon">
+          <div class="icon text-danger">
+            <i class="pe-7s-note2"></i>
+          </div>
+          <h3>
+            Če se želite naučiti postopka priprave popolnega piva, ste na pravi
+            strani.<br />
+            <br />
+            Z našimi vadnicami vam bomo korak za korakom pomagali doseči to
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section section-our-team-freebie">
+  <div class="parallax filter filter-color-black">
+    <div
+      class="image"
+      style="background-image: url('assets/img/header-2.jpeg')"
+    ></div>
+    <div class="container">
+      <div class="content">
+        <div class="row">
+          <div class="title-area">
+            <h2>Naš tim</h2>
+            <div class="separator separator-danger">✻</div>
+          </div>
+        </div>
+
+        <div class="team">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row members flex">
+                <div class="col-xs-12">
+                  <div class="card card-member hover-effect">
+                    <div class="content">
+                      <div class="avatar avatar-danger">
+                        <img
+                          alt="..."
+                          class="img-circle"
+                          src="assets/img/LUKA.png"
+                        />
+                      </div>
+                      <div class="description">
+                        <h3 class="title">Luka</h3>
+                        <p class="small-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row members flex">
+                <div class="col-md-3 flex">
+                  <div class="card card-member hover-effect" stlye="">
+                    <div class="content">
+                      <div class="avatar avatar-danger">
+                        <img
+                          alt="..."
+                          class="img-circle"
+                          src="assets/img/tine.png"
+                        />
+                      </div>
+                      <div class="description">
+                        <h3 class="title">Tine</h3>
+                        <p class="small-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 flex">
+                  <div class="card card-member hover-effect">
+                    <div class="content">
+                      <div class="avatar avatar-danger">
+                        <img
+                          alt="..."
+                          class="img-circle"
+                          src="assets/img/eme.png"
+                        />
+                      </div>
+                      <div class="description">
+                        <h3 class="title">Emilija</h3>
+                        <p class="small-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 flex">
+                  <div class="card card-member hover-effect">
+                    <div class="content">
+                      <div class="avatar avatar-danger">
+                        <img
+                          alt="..."
+                          class="img-circle"
+                          src="assets/img/jas.png"
+                        />
+                      </div>
+                      <div class="description">
+                        <h3 class="title">Megi</h3>
+                        <p class="small-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 flex">
+                  <div class="card card-member hover-effect">
+                    <div class="content">
+                      <div class="avatar avatar-danger">
+                        <img
+                          alt="..."
+                          class="img-circle"
+                          src="assets/img/MIKI.png"
+                        />
+                      </div>
+                      <div class="description">
+                        <h3 class="title">Miroslav</h3>
+                        <p class="small-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section section-our-clients-freebie">
+  <div class="container">
+    <div class="title-area">
+      <br />
+      <br />
+      <br />
+      <h5 class="subtitle text-gray">Dobrodošli v BeerHeaven!</h5>
+      <div class="separator line-separator">♦</div>
+      <h2><a href="MojaPivovarna.html">Poskusite in naučite</a></h2>
+      <div class="separator separator-danger">∎</div>
+    </div>
+  </div>
+</div>
+
+<div class="section section-small section-get-started">
+  <div class="parallax filter">
+    <div
+      class="image"
+      style="background-image: url('assets/img/office-1.jpeg')"
+    ></div>
+    <div class="container">
+      <div class="title-area"></div>
+
+      <div class="button-get-started">
+        <a href="#gaia" class="btn btn-danger btn-fill btn-lg"
+          >Kontaktirajte nas</a
+        >
+      </div>
+    </div>
+  </div>
+</div>

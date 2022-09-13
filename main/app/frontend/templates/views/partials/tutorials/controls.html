@@ -1,0 +1,23 @@
+<div class="content controls row-flex-container" style="justify-content: space-between">
+  <div class="row-flex-container">
+      {{> tutorials/status
+        tutorial=data.tutorial
+        brewery=data.tutorial.brewery
+        show_labels=1
+      }}
+  </div>
+  {{#if data.tutorial.status.enabled}}
+  <div class="row-flex-container">
+      {{#if data.tutorial.status.mayStart}}
+      <a href="/tutorial/{{data.tutorial.id}}/brewery/{{data.tutorial.brewery.id}}/start" class="btn btn-fill">Prični z vadnico</a>
+      {{/if}}
+      {{#if data.tutorial.status.mayFinish}}
+      <a href="/tutorial/{{data.tutorial.id}}/brewery/{{data.tutorial.brewery.id}}/stop" class="btn btn-fill nomargin">Zaključi z vadnico</a>
+      {{/if}}
+      {{#if data.tutorial.status.mayContinue}}
+      <a href="/tutorial/{{data.tutorial.id_nxt}}/brewery/{{data.tutorial.brewery.id}}" class="btn btn-fill nomargin">Nadaljuj z naslednjo</a>
+      {{/if}}
+  </div>
+  {{/if}}
+</div>
+

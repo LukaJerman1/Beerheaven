@@ -1,0 +1,30 @@
+{{!< default}}
+
+{{> common/title_with_intro
+  intro="Dobrodošli na strani BeerHeaven"
+  title="Vstopite v svet piva"
+}}
+
+{{> common/errors }}
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="user_register">
+        <form action="/login?redirect={{params.query.redirect}}" method="POST">
+          <h4><b>Vpišite podatke za prijavo:</b></h4>
+          <br/>
+          <div class="form-group">
+              <label for="email">E-pošta</label>
+              <input type="email" class="form-control" id="email" name="email" require>
+          </div>
+          <div class="form-group">
+              <label for="password">Geslo</label>
+              <input type="password" class="form-control" id="password" name="password" require>
+          </div>
+          <div class="controls"><button type="submit" class="btn btn-fill">Vstopi</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

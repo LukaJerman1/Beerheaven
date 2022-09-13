@@ -1,0 +1,92 @@
+{{!< default}}
+
+{{#contentFor 'custom_js'}}
+  {{> common/facebook }}
+{{/contentFor}}
+
+<!-- body -->
+{{> brewery/title
+  intro=page.intro
+  title=page.title
+  dat_opened=data.brewery.dat_opened
+  dat_closed=data.brewery.dat_closed
+}}
+
+{{#with data.brewery}}
+<!-- kontorlni gumbi -->
+  <div class="section brewery-controls">
+    <div class="container">
+      <div class="title-area my-0">
+        {{#if status.isdone}}
+          {{#if status.ismy}}
+            {{#unless dat_opened}}<div class="row"><a href="/brewery/{{id}}/open" class="btn btn-fill">Odpri pivovarno</a></div>{{/unless}}
+            {{#if dat_closed}}{{#if dat_opened}}<div class="row"><a href="/brewery/{{id}}/open" class="btn btn-fill">Ponovno odpri pivovarno</a></div>{{/if}}{{/if}}
+            {{#if dat_opened}}{{#unless dat_closed}}<div class="row"><a href="/brewery/{{id}}/close" class="btn btn-fill">Zapri pivovarno</a></div>{{/unless}}{{/if}}
+          {{/if}}
+          <div class="row"><a href="javascript:;" class="btn btn-fill" onClick="shareFB('{{../page.fullurl}}')">
+            <span class="material-icons">
+              facebook
+            </span>
+            &nbsp;&nbsp;
+            <span>Deli s prijatelji</span>
+          </a></div> 
+        {{/if}}
+        <br/>
+        {{#if status.ismy}}
+          <div class="row"><a href="/breweries?user" class="btn btn-fill">Vse moje pivovarne</a></div>
+          {{#if status.isdone}}<div class="row"><a href="/brewery/add" class="btn btn-fill">Ustvari novo pivovarno</a></div>{{/if}}
+        {{/if}}
+      </div>
+    </div>
+  </div>
+  
+
+  {{#with tutorials}}
+  <div class="section">
+    <div class="container">
+      {{#each .}}
+        {{#if (isDividable @index 2)}}
+        <div class="row d-flex justify-content-between align-items-stretch">
+        {{/if}}
+        <div class="col-md-6">
+          {{> brewery/tutorial 
+            brewery=../../../data.brewery
+            tutorial=.
+          }}
+        </div> 
+        {{#if (isDividable (sum @index 1) 2)}}
+          </div>
+        {{else}}
+          {{#if @last}}
+          </div>
+          {{/if}}
+        {{/if}}
+      {{/each}}
+    </div>
+  </div>
+  {{/with}}
+
+  {{#with my}}
+  <div class="section my-breweries">
+    <hr/>
+    <div class="container">
+      <div class="title-area" style="padding-bottom: 40px">
+        <h2>Vse moje pivovarne</h2>
+      </div>
+      <div>
+      {{#each .}}
+        {{> brewery/card_link
+          brewery=.
+        }}
+      {{/each}}
+      </div>
+    </div>
+  </div>
+  {{/with}}
+{{/with}}
+
+{{#unless data.brewery}}
+  <div class="section bewery-add">
+    {{> brewery/add }}
+  </div>
+{{/unless}}

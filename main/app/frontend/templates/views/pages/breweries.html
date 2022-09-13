@@ -1,0 +1,17 @@
+{{!< default}}
+<!-- body -->
+
+{{> common/title
+  title=page.title
+}}
+
+<div class="section">
+  <div class="container">
+    {{#unless data.breweries}}Ni podatkov o odprtih pivovarnah.{{/unless}}
+    {{#each data.breweries}}
+      {{> brewery/card_link
+        brewery=.
+      }}
+    {{/each}}
+  </div>
+</div>

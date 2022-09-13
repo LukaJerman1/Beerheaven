@@ -1,0 +1,21 @@
+<div class="section title">
+  <div class="container">
+    <br/>
+    <br/>
+    <div class="title-area my-0">
+      <h5 class="subtitle text-gray">{{ intro }}</h5>
+      <div class="separator line-separator">♦</div>
+      <div class="row">
+        <div class="col"><h2>{{ title }}</h2></div>
+        {{#if dat_closed}}
+          <div class="col"><h3 class="brewery-status closed">- Zaprta -</h3></div>
+          <div class="subtitle text-gray">od {{formatDate dat_closed}}</div>
+        {{/if}}
+        {{#if dat_opened}}{{#unless dat_closed}}
+          <div class="col"><h3 class="brewery-status opened">- Odprta -</h3></div>
+          <div class="subtitle text-gray">od {{formatDate dat_opened}}</div>
+        {{/unless}}{{/if}}
+      </div>
+    </div>
+  </div>
+</div>
