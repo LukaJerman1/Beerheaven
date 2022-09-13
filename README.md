@@ -1,7 +1,5 @@
 # Beerheaven
 
-ALL FILES IN MASTER BRANCH !
-
 
 Functionalities:
 
